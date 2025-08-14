@@ -1,0 +1,9 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mail envelope -->
+  <rect x="4" y="8" width="24" height="16" stroke="#194765" stroke-width="2" fill="none" rx="2"/>
+  <path d="M4 10L16 18L28 10" stroke="#194765" stroke-width="2" fill="none"/>
+  
+  <!-- Paper airplane -->
+  <path d="M12 6L20 10L12 14L14 10L12 6Z" fill="#f97316"/>
+  <path d="M14 10L16 14" stroke="#f97316" stroke-width="1.5"/>
+</svg>

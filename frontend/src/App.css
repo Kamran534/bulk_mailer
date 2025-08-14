@@ -1,0 +1,164 @@
+/* Email Sender Pro - Custom Styles */
+
+:root {
+  --primary-blue: #194765;
+  --primary-orange: #f97316;
+  --light-gray: #f8f9fa;
+  --dark-gray: #6c757d;
+}
+
+/* Custom button styles */
+.btn-primary {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: #0f2d42;
+  border-color: #0f2d42;
+}
+
+.btn-outline-primary {
+  color: var(--primary-blue);
+  border-color: var(--primary-blue);
+}
+
+.btn-outline-primary:hover,
+.btn-outline-primary:focus,
+.btn-outline-primary:active {
+  background-color: var(--primary-blue);
+  border-color: var(--primary-blue);
+  color: white;
+}
+
+/* Orange accent buttons */
+.btn-warning {
+  background-color: var(--primary-orange);
+  border-color: var(--primary-orange);
+  color: white;
+}
+
+.btn-warning:hover,
+.btn-warning:focus,
+.btn-warning:active {
+  background-color: #ea580c;
+  border-color: #ea580c;
+  color: white;
+}
+
+/* Card styling */
+.card {
+  border: none;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border-radius: 0.5rem;
+}
+
+.card-header {
+  background-color: var(--light-gray);
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}
+
+/* Statistics cards */
+.bg-primary {
+  background-color: var(--primary-blue) !important;
+}
+
+.text-primary {
+  color: var(--primary-blue) !important;
+}
+
+/* Navigation active state */
+.navbar-nav .nav-link:hover {
+  color: var(--primary-orange) !important;
+}
+
+/* Form styling */
+.form-control:focus {
+  border-color: var(--primary-orange);
+  box-shadow: 0 0 0 0.2rem rgba(249, 115, 22, 0.25);
+}
+
+/* Badge styling */
+.badge.bg-primary {
+  background-color: var(--primary-blue) !important;
+}
+
+/* Alert styling */
+.alert-info {
+  background-color: rgba(25, 71, 101, 0.1);
+  border-color: rgba(25, 71, 101, 0.2);
+  color: var(--primary-blue);
+}
+
+/* Table styling */
+.table th {
+  border-top: none;
+  font-weight: 600;
+  color: var(--primary-blue);
+}
+
+/* Custom utilities */
+.text-orange {
+  color: var(--primary-orange) !important;
+}
+
+.bg-orange {
+  background-color: var(--primary-orange) !important;
+}
+
+/* Dashboard metrics cards */
+.metrics-card {
+  transition: transform 0.2s ease-in-out;
+}
+
+.metrics-card:hover {
+  transform: translateY(-2px);
+}
+
+/* Loading states */
+.loading-spinner {
+  border: 3px solid var(--light-gray);
+  border-top: 3px solid var(--primary-orange);
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--light-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--dark-gray);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-blue);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  
+  .navbar-brand img {
+    height: 24px !important;
+    width: 24px !important;
+  }
+}
